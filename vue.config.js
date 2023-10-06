@@ -1,5 +1,7 @@
 // vue.config.js file to be placed in the root of your repository
 
 module.exports = {
-  publicPath: '/savyan12/sufyan'
+  publicPath: process.env.NODE_ENV === '/sufyan/'
+    ? '/sufyan/'
+    : '/'
 }
