@@ -1,7 +1,7 @@
 module.exports = {
   pwa: {
-      workboxOptions: {
-        exclude: [/_redirects/]
-      }
-    }
-}
+    workboxOptions: {
+      exclude: [/_redirects/],
+    },
+  },
+};
