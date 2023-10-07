@@ -141,14 +141,6 @@ export default {
           "template_7gmbgn8",
           this.$refs.form,
           "MaYpbgnw2canUk_Fj"
-        )
-        .then(
-          (result) => {
-            console.log("SUCCESS!", result.text);
-          },
-          (error) => {
-            console.log("FAILED...", error.text);
-          }
         );
     },
   },
